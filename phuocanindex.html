@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cheesecake Order Form</title>
+<link rel="stylesheet" href="phuocanstyles.css">
+</head>
+
+<body>
+<h1><b>Cheesecake Order Form</b></h1>
+<img src="cheesecake.jpg" alt="Wikimedia Cheesecake" style="width:200px;height:200px;">
+
+<p>Quantity Topping</p>
+<table cellspacing="15" cellpadding="0">
+    <tr>
+        <td>
+            <select name="quantity" id="quantity">
+                <option value="three">3</option>
+                <option value="two">2</option>
+                <option value="one">1</option>
+            </select>
+        </td>
+        <td>
+            <form>
+                <input type="radio" id="plain" name="flavor">
+                <label for="plain">plain</label><br>
+                <input type="radio" id="cherry" name="flavor">
+                <label for="cherry">cherry</label><br>
+                <input type="radio" id="chocolate" name="flavor">
+                <label for="chocolate">chocolate</label>
+            </form>
+        </td>
+    </tr>
+</table>
+
+<p>Notes:</p>
+<textarea placeholder="Enter any special instructions here" rows="4" cols="50"></textarea>
+<br>
+<button type="button">Order</button>
+
+<h3>Total Orders Last Month</h3>
+<ul>
+    <li>11 cherry</li>
+    <li>17 chocolate</li>
+    <li>31 plain</li>
+<ul>
+
+</body>
+</html>
