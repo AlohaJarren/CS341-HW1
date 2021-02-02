@@ -13,9 +13,17 @@
     <!-- Link Stylesheet to HTML Document -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Add Favicon Icon-->
     <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- Apply Bootstrap Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous">
 </head>
 <body>
+    <div class="backgroundImg"></div>
     <!-- Title of Page -->
     <h1>Cheesecake Order Form</h1> 
 
@@ -26,8 +34,8 @@
     <p> Quantity Topping</p>
 
     <table>
-        <!-- Dropdown Menu For Ordering Cheesecakes -->
         <td>
+            <!-- Dropdown Menu For Ordering Cheesecakes -->
             <select name="drop-down-list" id="numOfCheesecakes">
                 <option value="oneCheesecake"> 1 </option> 
                 <option value="twoCheesecake"> 2 </option> 
@@ -56,7 +64,9 @@
         placeholder="Enter any special instructions here."></textarea>
     </p>
     
+    <!-- Order Button For Future Use-->
     <button type="button"> Order</button>
+
     <!-- Order History -->
     <h3> Total Orders Last Month</h3>
     <ul> 
