@@ -3,6 +3,9 @@
     height: auto; 
 }
 
-/* body {
-    background-image: url("https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-} */
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Merriweather', serif;
+    background-image: url("woodBackground2.jpg")
+}
